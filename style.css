@@ -1,0 +1,46 @@
+body {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: palegoldenrod;
+}
+
+.microsoft-logo {
+    width: 440px;
+    margin: 20px auto;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+margin:0 20px 20px 0;
+float:left;
+}
+
+
+
+.square.red {
+    background-color: #F35325;
+}
+
+.square.green {
+    background-color: #81BC06;
+}
+
+.square.blue {
+    background-color: #05A6F0;
+}
+
+.square.yellow {
+    background-color: #FFBA08;
+}
+
+
+@media (max-width: 600px)   {
+    .square{
+
+width: calc(50% - 20px); margin-right: 20px;
+}
+}
